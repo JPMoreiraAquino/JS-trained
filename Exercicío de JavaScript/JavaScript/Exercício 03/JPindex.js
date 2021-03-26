@@ -1,0 +1,1 @@
+console.log('Meu Nome e "João Pedro Moreira de Aquino". EU acorde hoje as', 6.5, 'da manhã');
