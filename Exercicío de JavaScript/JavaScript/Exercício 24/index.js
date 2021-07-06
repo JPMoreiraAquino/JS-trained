@@ -21,7 +21,7 @@ const alunosDaTurmaA = [
     },
     {
         nome: "Nalda",
-        nota: 8.4
+        nota: 2.4
     },
     {
         nome: "Nalda",
@@ -38,7 +38,7 @@ const alunosDaTurmaA = [
  const alunosDaTurmaB = [
     {
          nome: "Magno",
-         nota: 8.4
+         nota: 3
     },
      {
          nome: "Jamile",
@@ -54,13 +54,13 @@ const alunosDaTurmaA = [
  const alunosDaTurmaC = [
     {
      nome: "Neide",
-        nota: 3.4
+        nota: 10
     },
-    {        nome: "Jose",
-         nota: 5.3 },
+    {    nome: "Jose",
+         nota: 10 },
     {
         nome: "Maria",
-        nota: 3.4
+        nota: 7.4
    },
     
 
@@ -82,7 +82,7 @@ const media3 = calculaMedia(alunosDaTurmaC)
 
 
 function enviaMensagem(media, turma) {
-    if (media > 6) {
+    if (media > 10) {
         console.log(`A media da ${turma} foi ${media}. Parabéns.`)
         } else {
         console.log(`A media da ${turma} foi ${media}. Tente novamente na proxima.`)
